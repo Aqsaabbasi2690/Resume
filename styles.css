@@ -12,7 +12,7 @@ body {
 .custom-link {
     text-decoration: none; /* Removes the underline */
     color: #007acc; /* Simple blue color */
-    font-weight: normal; /* Adjust weight if needed */
+    font-weight: normal; 
 }
 
 .custom-link:hover {
@@ -52,13 +52,11 @@ header {
 
 
 
-
-
-
 .profile img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    object-fit: cover; 
     border: 3px solid white;
 }
 
@@ -185,7 +183,7 @@ footer {
     margin-top: 20px;
 }
 
-/* Publications Section Styling */
+
 /* Publications Section Styling */
 .publications, .talks {
     margin: 40px 0; /* Ensure spacing for both sections */
@@ -293,4 +291,41 @@ footer {
     border-bottom: 3px solid #8B0000; /* Same color as the header */
     padding-bottom: 20px; /* Adjust spacing below the section */
     margin-bottom: 20px; /* Adjust spacing before the next section */
+}
+
+
+.certifications {
+    margin-top: 40px;
+}
+
+.certifications h2 {
+    color: #8B0000;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.certification-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+.certification-list li {
+    margin-bottom: 10px;
+}
+
+.certification-list a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.certification-list a:hover {
+    color: #005b99;
+    text-decoration: underline;
+}
+
+.platform {
+    font-style: italic;
+    color: #555;
 }
